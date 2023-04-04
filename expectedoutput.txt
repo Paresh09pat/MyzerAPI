@@ -1,0 +1,24 @@
+
+
+paste on 
+
+localhost:5000/replace_html
+
+ pass the data throgh postman 
+
+{
+    "title":"Hello World",
+    "description":"Hey This is Me Paresh!",
+    "content":"Hey This is Me!",
+    "author":"Patil paresh",
+    "date":"04/04/2023"
+}
+
+
+Result like
+
+<h1>Hello World</h1>
+<p>Hey This is Me Paresh!</p>
+<div>Hey This is Me!</div>
+<h2>Patil Paresh</h2>
+<span>Mon Apr 04 2023 </span>
